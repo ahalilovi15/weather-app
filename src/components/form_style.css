@@ -1,0 +1,28 @@
+
+form input[name="city"],
+form input[name="country"]{
+    background-color: transparent;
+    color: white;
+    border: none;
+    border-bottom: 2px solid whitesmoke;
+    border-radius: 0;
+    margin-top: 5%
+}
+form input[name="city"]:focus {
+    background-color: transparent;
+    border-bottom: 2px solid whitesmoke;
+    color: white
+  }
+  form input[name="country"]:focus {
+    background-color: transparent;
+    border-bottom: 2px solid whitesmoke;
+    color: white
+  }
+  *:focus {
+    outline: none !important;
+    box-shadow: none !important;
+ 
+}
+.btn{
+  margin-top: 7%
+}

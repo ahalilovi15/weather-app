@@ -1,0 +1,23 @@
+h1,h5,h4,h3{
+    color: rgb(89, 89, 89)
+}
+
+.flex-forecast, .today {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.today{
+    background: rgba(255,255,255,0.4);
+    border-radius: 10px;
+	box-shadow: 0 2px 5px rgba(0,0,255,0.05);
+    margin-right: 25%;
+    margin-left: 25%;
+    margin-top: 50px;
+    padding: 30px
+}
+.icon{
+   padding-top: 40px;
+   padding-left: 50px
+}
